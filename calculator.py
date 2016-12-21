@@ -44,7 +44,11 @@ def calculate(my_input, var_one, var_two):
 		
 # Execute calculate function
 # Use variables provided (var_1 and var_2)
+def main():
+	calculate(opr_choice, var_1, var_2)
 
-calculate(opr_choice, var_1, var_2)
+if __name__ == "__main__":
+	main()
+	
 
 
